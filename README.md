@@ -30,4 +30,6 @@ export GITHUB_TOKEN=your_personal_access_token
 ```bash
 ts -r <repo-name> -t <tag-name>
 ts -r <repo-name> -t release-v1 --watch
+# Watch mode with custom interval
+ts -r <repo-name> -t <tag-name> -w -i 5
 
